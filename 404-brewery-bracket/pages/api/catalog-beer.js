@@ -32,7 +32,7 @@ export async function GetBreweriesNamesAndIds(req, res) {
     var lat = 33.932773841449226;
     var long = -84.33987288817255;
 
-    let url = BaseUrl + `/location/nearby?latitude=${lat}&longitude=${long}&search_radius=1000&count=40 `;
+    let url = BaseUrl + `/location/nearby?latitude=${lat}&longitude=${long}&search_radius=1000&count=100 `;
     let username = "2fcdec8b-1243-402e-bee4-4556ee547d1c";
     let password = "";
 
